@@ -50,7 +50,7 @@ collected_links_list.sort(key=lambda x: x[1][0])
 
 with open('collected_links.txt', 'w') as file:
     for link, tup in collected_links_list:
-        file.write(link + str(tup[0] + 1) + ' ' + str(tup[1]) + ' ' + '\n')
+        file.write(link + ' ' + str(tup[0] + 1) + ' ' + str(tup[1]) + ' ' + '\n')
 
 
 
